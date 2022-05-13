@@ -1,4 +1,5 @@
 # Health Insurance Cross Sell
+<<<<<<< HEAD
 
 ## This objective of this project is to
 
@@ -61,3 +62,5 @@ My strategy to solve this challenge was:
 # LICENSE
 
 # All Rights Reserved - Comunidade DS 2022
+=======
+>>>>>>> main
