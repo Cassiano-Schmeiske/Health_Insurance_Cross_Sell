@@ -5,7 +5,7 @@ from healthinsurance.HealthInsurance import HealthInsurance
 
 # loading model
 path = '/home/cassiano/repos/health_insurance_cross_sell/'
-model = pickle.load( open( path + 'src/models/model_linear_regression.pkl', 'rb' ) )
+model = pickle.load( open( path + 'src/models/model_lgbm_final.pkl', 'rb' ) )
 
 # initialize API
 app = Flask( __name__ )
