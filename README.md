@@ -1,6 +1,7 @@
 # Health Insurance Cross Sell
 
 # 1. Business Problem.
+A company that traditionally provides Health Insurance intends to offer its customers a new product, a Vehicle Insurance. In order to achieve this purpose efficiently, With limited resources to contact potential customers interested in purchasing the product, it is necessary to build a ranking of customers to improve the performance of adherence to the product. This is a classification project (Learning to Rank).
 
 # 2. Business Assumptions.
 
@@ -73,6 +74,8 @@ LGBM Classifier
 # 7. Business Results
 
 # 8. Conclusions
+
+https://docs.google.com/spreadsheets/d/1SQx0MADjfRLo49gcAw0k8UXndCSEPEBxxnJCOJvNn9Q/edit#gid=0
 
 <div align="center">
 <img src="https://user-images.githubusercontent.com/94291995/168708505-c90edd94-d887-4047-b136-a3ac43cec75f.png" />
