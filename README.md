@@ -83,9 +83,21 @@ https://docs.google.com/spreadsheets/d/1SQx0MADjfRLo49gcAw0k8UXndCSEPEBxxnJCOJvN
 <img src="https://user-images.githubusercontent.com/94291995/168708505-c90edd94-d887-4047-b136-a3ac43cec75f.png" />
 </div>
 
-# 9. Lessons Learned
+# 9. Next stepsPossible points to be addressed in the second cycle:
 
-# 10. Next Steps to Improve
+-Work with new combinations of feature
 
+-Test new machine learning models
+
+-Try new models after balance
+
+-Apply cross validation and hyper paramaters
+
+# 10. Technologies
+
+- Jupyter;
+- AWS;
+- Postgres;
+- Python.
 
 # All Rights Reserved - Comunidade DS 2022
