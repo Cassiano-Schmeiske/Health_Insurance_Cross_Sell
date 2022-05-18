@@ -1,7 +1,5 @@
 # Health Insurance Cross Sell
 
-#cassiano
-
 # 1. Business Problem.
 A company that traditionally provides Health Insurance intends to offer its customers a new product, a Vehicle Insurance. In order to achieve this purpose efficiently, With limited resources to contact potential customers interested in purchasing the product, it is necessary to build a ranking of customers to improve the performance of adherence to the product. This is a classification project (Learning to Rank).
 
@@ -64,9 +62,14 @@ Random Forest Classifier
 LGBM Classifier
 
 # 6. Machine Learning Modelo Performance
+
 <div align="">
 <img src="https://user-images.githubusercontent.com/94291995/168709406-3c62214b-a409-419d-a77d-988d4d6da296.png" />
 </div>
+
+- The precision@k is the proportion of recommended items in the top-k set that are relevant, where k is the number (or percentage, in this case) of rows of the class 1 (those that are intereseted in vehicle insurance) in the sorted probability table.
+    
+- The recall@k is the proportion of relevant items found in the top-k recommendations.
 
 <div align="">
 <img src="https://user-images.githubusercontent.com/94291995/168710206-baa76e5c-06e3-4807-94a8-c3ff804d1659.png" />
@@ -75,13 +78,20 @@ LGBM Classifier
 
 # 7. Business Results
 
-# 8. Conclusions
+We can note that by applying this model approximately 93% of potential customers interested in vehicular insurance will be converted by addressing 40% of the total customers currently with only health insurance.
 
-https://docs.google.com/spreadsheets/d/1SQx0MADjfRLo49gcAw0k8UXndCSEPEBxxnJCOJvNn9Q/edit#gid=0
+The model was deployed on Heroku and available through a spreadsheet in Google Sheets  (https://docs.google.com/spreadsheets/d/1SQx0MADjfRLo49gcAw0k8UXndCSEPEBxxnJCOJvNn9Q/edit#gid=0)
 
 <div align="center">
 <img src="https://user-images.githubusercontent.com/94291995/168708505-c90edd94-d887-4047-b136-a3ac43cec75f.png" />
 </div>
+
+# 8. Conclusions
+
+With the use of the model in production, it is expected, at least, to double the efficiency in the acquisition of new clients for vehicle insurance.
+
+This is because you will only need to contact 40% of customers to get over 90% conversion. Without the model, when contacting purely random customers, it is reasonable to say that to have 90% of customers likely to close a deal, you would also have to contact 90% of the total list.
+
 
 # 9. Next stepsPossible points to be addressed in the second cycle:
 
@@ -99,5 +109,3 @@ https://docs.google.com/spreadsheets/d/1SQx0MADjfRLo49gcAw0k8UXndCSEPEBxxnJCOJvN
 - AWS;
 - Postgres;
 - Python.
-
-# All Rights Reserved - Comunidade DS 2022
