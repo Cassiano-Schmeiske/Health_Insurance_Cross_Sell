@@ -85,13 +85,13 @@ https://docs.google.com/spreadsheets/d/1SQx0MADjfRLo49gcAw0k8UXndCSEPEBxxnJCOJvN
 
 # 9. Next stepsPossible points to be addressed in the second cycle:
 
--Work with new combinations of feature
+- Work with new combinations of feature
 
--Test new machine learning models
+- Test new machine learning models
 
--Try new models after balance
+- Try new models after balance
 
--Apply cross validation and hyper paramaters
+- Apply cross validation and hyper paramaters
 
 # 10. Technologies
 
