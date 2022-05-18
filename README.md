@@ -5,6 +5,8 @@ A company that traditionally provides Health Insurance intends to offer its cust
 
 # 2. Business Assumptions.
 
+The Marketing Manager stated that they there is a limited budget for prospecting customers. Therefore, the company wants to obtain an ordered list of customers most likely to purchase vehicle insurance to maximize customer conversion.
+
 # 3. Solution Strategy
 
 My strategy to solve this challenge was: The method applied was CRISP-DM:
